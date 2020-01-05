@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Poppins:400,700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  padding: 2em 4em 0em 4em;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  background: #674baf;
+  background-image: url("../images/bg-desktop.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+body .mt-1 {
+  margin-top: 1em;
+}
+
+body .mt-2 {
+  margin-top: 2em;
+}
+
+body #social button {
+  cursor: pointer;
+  background: transparent;
+  color: #fff;
+  font-size: 18px;
+  border: 1px solid #fff;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-left: 1em;
+}
+
+body .flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .flex-container.align-right {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+h1.fw-700, h2.fw-700, h3.fw-700, h4.fw-700, h5.fw-700, h6.fw-700 {
+  font-weight: 700;
+}
+
+#main-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  grid-column-gap: 50px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-top: 3em;
+}
+
+#main-container #main-content {
+  padding: 0 3em;
+}
+
+#main-container h1 {
+  font-size: 3em;
+}
+
+#main-container p {
+  font-size: 1em;
+  line-height: 28px;
+}
+
+#main-container button {
+  cursor: pointer;
+  background: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 1em;
+  font-size: 16px;
+  width: 180px;
+  color: #674baf;
+  -webkit-box-shadow: 0px 6px 10px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 6px 10px 1px rgba(0, 0, 0, 0.3);
+}
+/*# sourceMappingURL=main.css.map */
