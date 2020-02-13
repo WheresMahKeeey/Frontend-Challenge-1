@@ -8,3 +8,5 @@ Things that I've tried here are:
  - SASS
  - Flexbox
  - CSS Grid
+
+Click here to view it: https://wheresmahkeeey.github.io/Frontend-Challenge-1/index.html
